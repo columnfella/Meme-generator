@@ -1,9 +1,26 @@
 # Meme Generator
 
-This repository is a small React-built web app that uses the Imgflip API to generate random meme images where you can modify the top and bottom text.
+A **React** web app for making memes. It loads popular meme templates from the Imgflip API and lets you add your own top and bottom text.
 
-###### *Recources:*
+## Features
 
-This repository is an exercise from Bob Zirroll's React course on the Scrimba platform: [https://scrimba.com/learn-react-c0e](https://scrimba.com/learn-react-c0e)
+- Fetches popular meme templates from the [Imgflip API](https://imgflip.com/api)
+- Random template picker
+- Live, editable top and bottom captions over the image
 
-The Imgflip API: https://imgflip.com/api
+## Tech stack
+
+React · JavaScript · Vite · Imgflip API
+
+## Getting started
+
+```bash
+npm install
+npm run dev
+```
+
+No API key is required.
+
+## Credits
+
+Built while following Bob Ziroll's [Learn React](https://scrimba.com/learn-react-c0e) course on Scrimba.
